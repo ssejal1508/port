@@ -4,7 +4,7 @@ import {
   } from "react-vertical-timeline-component";
   
   import { CTA } from "../components";
-  import { experiences, skills } from "../constants";
+  import { experiences, skills, certi } from "../constants";
   
   import "react-vertical-timeline-component/style.min.css";
   
@@ -14,10 +14,10 @@ import {
       <h1 className='head-text'>
         Hello, I'm{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
-          Sejal Sharma
+          Sejal Sharma 
         </span>
       </h1>
-    
+   
       <div className='mt-5 flex flex-col gap-3 text-stone-700'>
       <p className="text-lg">
   I am passionate about Data Structures and Algorithms (DSA), Full Stack Development, Artificial Intelligence and Machine Learning (AI/ML), and contributing to Open Source projects.
@@ -42,6 +42,7 @@ import {
         </div>
       </div>
     
+
       <div className='py-16'>
         <h3 className='subhead-text'>Experiences</h3>
         <div className='mt-5 flex flex-col gap-3 text-stone-700'>
@@ -99,6 +100,28 @@ import {
           ))}
         </VerticalTimeline>
         </div>
+<div className="py-10 flex flex-col">
+  <h3 className="subhead-text">Certifications</h3>
+  
+  <div className="mt-4 flex flex-col gap-4">
+    {certi.map((certification) => (
+      <a
+        key={certification.name}
+        href={certification.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:scale-105 transition-transform"
+      >
+        <img
+          src={certification.imageUrl}
+          alt={certification.name}
+          className="h-auto w-auto"
+        />
+      </a>
+    ))}
+  </div>
+</div>
+
       </div>
     
       <hr className='border-slate-200' />

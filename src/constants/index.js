@@ -72,11 +72,7 @@ import {
       name: "Windows Terminal",
       type: "Tool"
     },
-    {
-      imageUrl: "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white",
-      name: "Google Cloud",
-      type: "Cloud Service"
-    },
+    
     {
       imageUrl: "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase",
       name: "Firebase",
@@ -127,11 +123,7 @@ import {
       name: "Flask",
       type: "Framework"
     },
-    {
-      imageUrl: "https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white",
-      name: "Flutter",
-      type: "Framework"
-    },
+   
     {
       imageUrl: "https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white",
       name: "jQuery",
@@ -167,11 +159,7 @@ import {
       name: "TailwindCSS",
       type: "CSS Framework"
     },
-    {
-      imageUrl: "https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white",
-      name: "Three.js",
-      type: "Library"
-    },
+   
     {
       imageUrl: "https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white",
       name: "Vite",
@@ -187,11 +175,7 @@ import {
       name: "Yarn",
       type: "Package Manager"
     },
-    {
-      imageUrl: "https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black",
-      name: "Webpack",
-      type: "Module Bundler"
-    },
+   
     {
       imageUrl: "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
       name: "MongoDB",
@@ -248,6 +232,11 @@ import {
       type: "Library"
     },
     {
+      imageUrl: "https://img.shields.io/badge/seaborn-%2300A3E0.svg?style=for-the-badge&logo=seaborn&logoColor=white",
+      name: "Seaborn",
+      type: "Library"
+    },
+    {
       imageUrl: "https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white",
       name: "scikit-learn",
       type: "Library"
@@ -282,30 +271,11 @@ import {
         name: "GitHub",
         type: "Version Control"
       },
-      {
-        imageUrl: "https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black",
-        name: "Babel",
-        type: "Tool"
-      },
-      {
-        imageUrl: "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
-        name: "Docker",
-        type: "Tool"
-      },
-      {
-        imageUrl: "https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white",
-        name: "Arduino",
-        type: "Hardware"
-      },
+    
       {
         imageUrl: "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white",
         name: "Postman",
         type: "API Testing"
-      },
-      {
-        imageUrl: "https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi",
-        name: "Raspberry Pi",
-        type: "Hardware"
       }
   ];
   
@@ -429,6 +399,31 @@ export const socialLinks = [
         link: 'https://www.linkedin.com/in/sejal-s-1b349628a/',
     }
 ];
+export const certi = [
+    {
+        name: "Supervised Machine Learning: Regression and Classification",
+        imageUrl: "https://img.shields.io/badge/Coursera-Supervised%20ML%20%7C%20Regression%20%26%20Classification-blue?style=for-the-badge&logo=coursera&logoColor=white",
+        link: "https://coursera.org/share/81b45894f089fcbb61337925cbd0877d"
+    },
+    {
+        name: "Advanced Learning Algorithms",
+        imageUrl: "https://img.shields.io/badge/Coursera-Advanced%20Learning%20Algorithms-blue?style=for-the-badge&logo=coursera&logoColor=white",
+        link: "https://coursera.org/share/174299758d187335dc8d109d8d8c44d0"
+    },
+    {
+        name: "Unsupervised Learning, Recommenders, Reinforcement Learning",
+        imageUrl: "https://img.shields.io/badge/Coursera-Unsupervised%20%7C%20Recommenders%20%7C%20RL-blue?style=for-the-badge&logo=coursera&logoColor=white",
+        link: "https://coursera.org/share/babab95675fbdc0049d906c6e3772409"
+    },
+    {
+        name: "Machine Learning Specialization",
+        imageUrl: "https://img.shields.io/badge/Coursera-Machine%20Learning%20Specialization-blue?style=for-the-badge&logo=coursera&logoColor=white",
+        link: "https://coursera.org/share/b06ae3fa43058ffa8f51d960a846d0cf"
+    }
+];
+
+
+
 
 export const projects = [
     {
