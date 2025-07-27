@@ -12,28 +12,24 @@ import {
     return (
       <section className='max-container'>
       <div className="flex flex-col items-center gap-4">
-  <h1 className="head-text text-center">
+  <h1 className="head-text flex flex-wrap justify-center items-center gap-2 text-center">
     Hello, I'm{" "}
     <span className="blue-gradient_text drop-shadow font-semibold">
       Sejal Sharma
     </span>
-  </h1>
 
-  {/* Competitive Programming Profiles */}
-  <div className="flex gap-6 mt-2">
     {/* LeetCode */}
     <a
       href="https://leetcode.com/u/codegirl27/"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center gap-2 hover:scale-105 transition-transform"
+      className="hover:scale-105 transition-transform"
     >
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
         alt="LeetCode"
-        className="h-8 w-8 object-contain"
+        className="h-10 w-10 object-contain"
       />
-      <span className="text-sm font-medium text-gray-700">LeetCode</span>
     </a>
 
     {/* Codeforces */}
@@ -41,17 +37,17 @@ import {
       href="https://codeforces.com/profile/codegirl27"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center gap-2 hover:scale-105 transition-transform"
+      className="hover:scale-105 transition-transform"
     >
       <img
         src="https://sta.codeforces.com/s/84849/images/codeforces-logo-with-telegram.png"
         alt="Codeforces"
-        className="h-8 w-8 object-contain"
+        className="h-10 w-10 object-contain"
       />
-      <span className="text-sm font-medium text-gray-700">Codeforces</span>
     </a>
-  </div>
+  </h1>
 </div>
+
 
    
       <div className='mt-5 flex flex-col gap-3 text-stone-700'>

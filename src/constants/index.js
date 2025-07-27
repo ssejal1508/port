@@ -282,104 +282,127 @@ import {
 
 
 export const experiences = [
-    {
-        title: "Contributor",
-        company_name: "Hacktoberfest",
-        icon: hack,
-        iconBg: "#f4c2c2", 
-        date: "October 2024",
-        points: [
-            "Contributed to open-source projects during Hacktoberfest 2024.",
-            "Collaborated with other developers to improve and enhance existing projects.",
-            "Earned a badge for contributing to open-source projects.",
-        ],
-    },
-    {
-        title: "Contributor",
-        company_name: "GirlScript Summer of Code Extd",
-        icon: hack2,
-        iconBg: "#add8e6",
-        date: "October 2024-November 2024",
-        points: [
-            "Contributed to open-source projects during GirlScript Summer of Code Extd.",
-            "Collaborated with other developers to improve and enhance existing projects.",
-            "Participated in the Postman Challenge.",
-            "Rank: 589",
-        ],
-    },
-    {
-        title: "Participant",
-        company_name: "Smart India Hackathon",
-        icon: sih,
-        iconBg: "#f4c2c2",
-        date: "October 2024",
-        points: [
-            "Cleared Round 1 of Smart India Hackathon with an interactive job portal solution",
-        ],
-    },
-    {
-        title: "Acceptance Letters",
-        company_name: " ",
-        icon: uni,
-        iconBg: "#add8e6",
-        date: "2023",
-        points: [
-            "Secured admissions to top-ranked universities: University of Manchester, University of Edinburgh, King's College London",
-        ],
-    },
-    {
-        title: "Brain of Himachal",
-        company_name: "Aspire Shimla",
-        icon: boh,
-        iconBg: "#f4c2c2",
-        date: "October 2022",
-        points: [
-            "Secured 2nd rank in the state",
-        ],
-    },
-    {
-        title: "National Talent Search Examination (NTSE)",
-        company_name: "NCERT",
-        icon: ntse,
-        iconBg: "#add8e6",
-        date: "February 2021",
-        points: [
-            "Advanced to Stage 2 (ranked 8th in state) in a competition with 1000 participants",
-        ],
-    },
-    {
-        title: "IOQM",
-        company_name: "HBCSE & MTAI",
-        icon: ioq,
-        iconBg: "#f4c2c2",
-        date: "February 2021",
-        points: [
-            "Received a Merit Certificate, recognizing achievement within the Top 300 most meritorious individuals in the region",
-            "Besides, I have also received merit certificates for IOQP and IOQA",
-        ],
-    },
-    
-    {
-        title: "NSTSE",
-        company_name: "Unified Council",
-        icon: nstse,
-        iconBg: "#add8e6",
-        date: "2020",
-        points: [
-            "Ranked 2nd in the state in the National Science Talent Search Examination",
-        ],
-    },
-    {
-        title: "SOF OLYMPIADS",
-        company_name: "Science Olympiad Foundation",
-        icon: sof,
-        iconBg: "#f4c2c2",
-        date: "2012-2022",
-        points: [
-            "I've been participating in olympiads since 2nd grade and consistently achieving top ranks every year",
-        ],
-    },
+  {
+    title: "Web Development & UI/UX Design Contributor",
+    company_name: "AppTeam NITH, National Institute of Technology Hamirpur",
+    icon: "https://avatars.githubusercontent.com/u/17087131?s=280&v=4", // make sure you import or define this icon
+    iconBg: "#add8e6",
+    date: "Aug 2023 – Present",
+    points: [
+      "Led frontend development and UI/UX design using Figma for a React-based Inventory Management Web App built for NIT Hamirpur’s Technical Fest.",
+      "Improved operational efficiency and enhanced navigation for 500+ users through intuitive prototyping and interface design.",
+      "Spearheaded web contributions for the Hack on Hills website, enabling sponsor outreach and contributing to 1000+ registrations."
+    ],
+  },
+  {
+    title: "Web Developer Intern",
+    company_name: "NullClass (Remote)",
+    icon: "https://media.licdn.com/dms/image/v2/C560BAQGCs07yzlcG9Q/company-logo_200_200/company-logo_200_200/0/1630646786601/nullclassdotcom_logo?e=2147483647&v=beta&t=HzWjQJIPj_5_S7_jDDEjZ2yeQpYkoZnMDpLs7cw1zqQ", 
+    iconBg: "#f4c2c2",
+    date: "Dec 2024 – Feb 2025",
+    points: [
+      "Developed a responsive cinema booking web application using the MERN stack with real-time seat availability and dynamic pricing automation.",
+      "Integrated secure online payments and connected the platform to a PostgreSQL database for robust data management."
+    ],
+  },
+  {
+    title: "Contributor",
+    company_name: "Hacktoberfest",
+    icon: hack,
+    iconBg: "#f4c2c2",
+    date: "October 2024",
+    points: [
+      "Contributed to open-source projects during Hacktoberfest 2024.",
+      "Collaborated with other developers to improve and enhance existing projects.",
+      "Earned a badge for contributing to open-source projects.",
+    ],
+  },
+  {
+    title: "Contributor",
+    company_name: "GirlScript Summer of Code Extd",
+    icon: hack2,
+    iconBg: "#add8e6",
+    date: "Oct 2024 – Nov 2024",
+    points: [
+      "Contributed to open-source projects during GirlScript Summer of Code Extd.",
+      "Collaborated with other developers to improve and enhance existing projects.",
+      "Participated in the Postman Challenge.",
+      "Rank: 589",
+    ],
+  },
+  {
+    title: "Participant",
+    company_name: "Smart India Hackathon",
+    icon: sih,
+    iconBg: "#f4c2c2",
+    date: "October 2024",
+    points: [
+      "Cleared Round 1 of Smart India Hackathon with an interactive job portal solution",
+    ],
+  },
+  {
+    title: "Acceptance Letters",
+    company_name: "—",
+    icon: uni,
+    iconBg: "#add8e6",
+    date: "2023",
+    points: [
+      "Secured admissions to top-ranked universities: University of Manchester, University of Edinburgh, King's College London",
+    ],
+  },
+  {
+    title: "Brain of Himachal",
+    company_name: "Aspire Shimla",
+    icon: boh,
+    iconBg: "#f4c2c2",
+    date: "October 2022",
+    points: [
+      "Secured 2nd rank in the state",
+    ],
+  },
+  {
+    title: "National Talent Search Examination (NTSE)",
+    company_name: "NCERT",
+    icon: ntse,
+    iconBg: "#add8e6",
+    date: "February 2021",
+    points: [
+      "Advanced to Stage 2 (ranked 8th in state) in a competition with 1000 participants",
+    ],
+  },
+  {
+    title: "IOQM",
+    company_name: "HBCSE & MTAI",
+    icon: ioq,
+    iconBg: "#f4c2c2",
+    date: "February 2021",
+    points: [
+      "Received a Merit Certificate, recognizing achievement within the Top 300 most meritorious individuals in the region",
+      "Also received merit certificates for IOQP and IOQA",
+    ],
+  },
+  {
+    title: "NSTSE",
+    company_name: "Unified Council",
+    icon: nstse,
+    iconBg: "#add8e6",
+    date: "2020",
+    points: [
+      "Ranked 2nd in the state in the National Science Talent Search Examination",
+    ],
+  },
+  {
+    title: "SOF Olympiads",
+    company_name: "Science Olympiad Foundation",
+    icon: sof,
+    iconBg: "#f4c2c2",
+    date: "2012 – 2022",
+    points: [
+      "Participated in olympiads since 2nd grade and consistently achieved top ranks every year",
+    ],
+  },
 ];
+
 
 export const socialLinks = [
     {
@@ -426,55 +449,29 @@ export const certi = [
 
 
 export const projects = [
-    {
-        iconUrl: "https://img.icons8.com/?size=100&id=BE14o5JUtfrx&format=png&color=000000",
-        theme: 'btn-back-red',
-        name: 'Cognitive Automation',
-        description: 'Implemented Cognitive Automation solutions utilizing Python, TensorFlow, NLTK, spaCy, Selenium, and MongoDB to automate data-driven business processes, including intelligent data extraction, validation, and analysis. Streamlined workflows, improved decision-making with machine learning models, and optimized data processing for automated invoice handling, customer support, and document management, resulting in enhanced accuracy, reduced human errors, and a 30% increase in operational efficiency.',
-        
-    },
-     {
-        iconUrl: "https://img.icons8.com/?size=100&id=9010&format=png&color=010000",
-        theme: 'btn-back-red',
-        name: 'BookMyShow Clone',
-        description: 'Developed a full-stack web application with Django replicating "BookMyShow" features, including movie browsing, seat booking, and payment integration. Improved user booking efficiency by 40% with a robust backend and an interactive UI',
-        
-    },
-      {
-        iconUrl: "https://img.icons8.com/?size=100&id=37326&format=png&color=000000",
-        theme: 'btn-back-red',
-        name: 'YouTube Clone',
-        description: 'Designed and implemented a scalable video streaming platform replicating YouTube’s core features, supporting up to 500 concurrent users, enabling video uploads, and ensuring 99% uptime with adaptive streaming and optimized backend processing',
-        
-    },
-    {
-      iconUrl: "https://img.icons8.com/?size=100&id=EPWi0qK2GM93&format=png&color=000000",
-      theme: 'btn-back-red',
-      name: 'Reminder App',
-      description: 'Programmed a modern reminder app with Flutter, delivering efficient state management and seamless navigation. Achieved 95% user satisfaction through intuitive UI/UX design.',
-      
+  {
+    iconUrl: "https://cdn-icons-png.flaticon.com/512/777/777242.png", 
+    theme: "btn-back-blue",
+    name: "BookMySeat",   
+    description:
+      "A full-stack MERN movie ticket booking platform with real-time seat selection, Stripe payments, Clerk authentication, and admin analytics dashboard.",
+    github: "https://github.com/shar2710/movie",
   },
-   
-    {
-        iconUrl: "https://img.icons8.com/?size=100&id=h7L7YOvvyyJI&format=png&color=000000",
-        theme: 'btn-back-red',
-        name: 'Coinify',
-        description: 'Deployed a cryptocurrency trading platform using React, Redux, and RapidAPI, enabling real-time market data, advanced trading tools, secure transactions, and efficient state management',
-       
-    },
-    {
-        iconUrl: "https://img.icons8.com/?size=100&id=74514&format=png&color=000000",
-        theme: 'btn-back-red',
-        name: 'Cool Merch',
-        description: 'Engineered an interactive 3D T-shirt designer using JavaScript and Three.js, enabling users to customize designs in real-time',
-        
-    },
-    {
-        iconUrl: "https://img.icons8.com/?size=100&id=92964&format=png&color=000000",
-        theme: 'btn-back-red',
-        name: 'Elite Health',
-        description: 'Developed a user-friendly website (HTML, CSS, Javascript) during Electrothon 6.0, a national level hackathon to assist seniors in accessing in-home medical services',
-       
-    },
-    
+  {
+    iconUrl: "https://cdn-icons-png.flaticon.com/512/11/11036.png", 
+    theme: "btn-back-green",
+    name: "Maternal Guard AI",
+    description:
+      "AI-based clinical risk prediction model for preeclampsia using synthetic clinical data. Achieved 95.6% AUC with ensemble models like XGBoost, SVM, and Random Forest. Incorporated fairness, SHAP-based explainability, and class imbalance handling.",
+    github: "https://github.com/shar2710/maternalguardai",
+  },
+  {
+    iconUrl: "https://cdn-icons-png.flaticon.com/512/883/883407.png",
+    theme: "btn-back-blue",
+    name: "SafePrescribe",
+    description:
+      "Built a decentralized prescription portal using Web3.js, MetaMask, and Ethereum. Doctors issue secure digital prescriptions stored on blockchain, retrievable via transaction hash. Created for Hack 5.0 by NIT Hamirpur.",
+    github: "https://github.com/shar2710/hack5.0",
+    external: "https://devfolio.co/projects/blockanauts-8121",
+  }
 ];

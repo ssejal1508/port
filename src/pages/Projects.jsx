@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import { CTA } from "../components";
 import { projects } from "../constants";
 import { arrow } from "../assets/icons";
@@ -26,7 +25,7 @@ const Projects = () => {
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
                   src={project.iconUrl}
-                  alt='threads'
+                  alt={project.name}
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
@@ -37,9 +36,22 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
+
+              {/* Visit link */}
               <div className='mt-5 flex items-center gap-2 font-poppins'>
-              
-              
+                <a
+                  href={project.github}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-blue-500 hover:underline flex items-center gap-1'
+                >
+                  Visit
+                  <img
+                    src={arrow}
+                    alt='arrow'
+                    className='w-4 h-4 object-contain'
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -47,7 +59,6 @@ const Projects = () => {
       </div>
 
       <hr className='border-slate-200' />
-
       <CTA />
     </section>
   );
