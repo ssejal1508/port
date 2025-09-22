@@ -449,6 +449,14 @@ export const certi = [
 
 
 export const projects = [
+    {
+  iconUrl: "https://cdn-icons-png.flaticon.com/512/4712/4712027.png", // chatbot icon
+  theme: "btn-back-blue",
+  name: "MediBot",
+  description: "A suite of AI-powered medical chatbots assisting with healthcare tasks.",
+  github: "https://github.com/shar2710/medi",
+}
+,
   {
     iconUrl: "https://cdn-icons-png.flaticon.com/512/777/777242.png", 
     theme: "btn-back-blue",
