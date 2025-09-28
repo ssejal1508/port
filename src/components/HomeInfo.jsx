@@ -20,15 +20,8 @@ const HomeInfo = ({ currentStage }) => {
     A Junior at NIT Hamirpur
   </h1>
 
-  {/* Resume Box */}
-  <a
-    href="https://drive.google.com/file/d/1Kht5QD1RI3maiLxJ43IUGrDbB9_QU25n/view?usp=sharing"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mt-6 bg-white text-black px-6 py-2 rounded-xl shadow-md hover:bg-pink-600 hover:text-white transition-colors duration-300 font-semibold text-lg"
-  >
-    View Resume
-  </a>
+ 
+
 </div>
 
     </div>
