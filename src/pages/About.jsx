@@ -20,7 +20,7 @@ import {
 
     {/* LeetCode */}
     <a
-      href="https://leetcode.com/u/codegirl27/"
+      href="https://leetcode.com/u/codiieee27/"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:scale-105 transition-transform"
