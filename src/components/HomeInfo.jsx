@@ -17,7 +17,7 @@ const HomeInfo = ({ currentStage }) => {
   <h1 className="text-white text-3xl sm:text-4xl font-bold text-center">
     Hi, I'm <span className="text-pink-600">Sejal</span>  
     <br />
-    A Junior at NIT Hamirpur
+    CSE Senior @NIT Hamirpur
   </h1>
 
  
